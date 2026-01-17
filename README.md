@@ -3,12 +3,11 @@
 A hardware-based Pomodoro Timer implemented on the Basys 3 FPGA board using VHDL.
 
 ## Features
-- Finite State Machine (IDLE, RUNNING, PAUSED)
-- Manual Work/Break toggle
-- Automatic mode switching at 00:00
-- MM:SS countdown display
-- 7-segment display output
-- Button-based user control
+- FSM-based control (IDLE, RUNNING, PAUSED, RESET, DONE, TOGGLE)
+- Manual toggle to adjust Work time and Break time
+- MM:SS countdown logic on 7-segment display
+- Button-controlled UI
+- Switch/LED Synchronization to adjust Work/Break time
 
 ## Button Controls
 | Button | Function |
