@@ -38,14 +38,8 @@ A hardware-based Pomodoro Timer implemented on the Basys 3 FPGA board using VHDL
 3. Display shows MM:SS format
 4. Timer auto-switches between work and break modes
 
-## Demo
-(Add photos or a video here)
-
 ## Learning Outcomes
 - Finite State Machines
 - Clock domain handling
 - Hardware-based UI
 - FPGA design workflow
-
-## Author
-Your Name
